@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#9370db">
+<center>
+    <form action="./reg/" method="post">
+    {% csrf_token %}
+    {{ reg_form }}
+    <input type="submit" value="reg">
+    </form>
+</center>
+</body>
+</html>
